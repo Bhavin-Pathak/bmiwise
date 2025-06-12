@@ -2,7 +2,7 @@
 
 A modern, responsive Body Mass Index (BMI) calculator built with React and styled with TailwindCSS. This application helps users calculate their BMI and understand their health status with an intuitive, clean interface.
 
-![BMI Calculator Preview](https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=BMI+Calculator)
+![BMI Calculator Preview](preview/image.png)
 
 ## 🚀 Features
 
