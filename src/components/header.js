@@ -7,10 +7,10 @@ const Header = () => {
         <Calculator className="h-10 w-10 text-white" />
       </div>
       <h1 className="text-5xl font-bold text-white mb-4 tracking-tight">
-        BitWise
+        BMIWise
       </h1>
       <p className="text-white/70 text-xl max-w-2xl mx-auto leading-relaxed">
-        Calculate your Body Mass Index with BitWise 💪🏻
+        Calculate your Body Mass Index with BMIWise 💪🏻
       </p>
     </div>
   );
