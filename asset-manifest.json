@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bmiwise/static/css/main.32fccec5.css",
+    "main.js": "/bmiwise/static/js/main.2c3479d3.js",
+    "static/js/453.9b815b57.chunk.js": "/bmiwise/static/js/453.9b815b57.chunk.js",
+    "index.html": "/bmiwise/index.html",
+    "main.32fccec5.css.map": "/bmiwise/static/css/main.32fccec5.css.map",
+    "main.2c3479d3.js.map": "/bmiwise/static/js/main.2c3479d3.js.map",
+    "453.9b815b57.chunk.js.map": "/bmiwise/static/js/453.9b815b57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32fccec5.css",
+    "static/js/main.2c3479d3.js"
+  ]
+}
