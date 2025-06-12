@@ -31,11 +31,11 @@ const BMIResult = ({ bmi }) => {
           {/* BMI Categories Grid */}
           <div className="grid grid-cols-1 gap-6 mt-8">
             <GlassCard className="p-6">
-              <p className="mb-5 text-white">
+              <p className="mb-10 text-white text-lg leading-relaxed text-center">
                 Your BMI is{" "}
-                <span className="font-bold text-teal-200">{bmi}</span>, which
-                falls into the{" "}
-                <span className="font-bold text-yellow-200">
+                <span className="font-bold text-cyan-400 text-2xl">{bmi}</span>{" "}
+                which falls into the{" "}
+                <span className="font-bold text-orange-400 text-2xl">
                   {categoryInfo.category}
                 </span>{" "}
                 category.
@@ -57,6 +57,28 @@ const BMIResult = ({ bmi }) => {
                   <span className="text-rose-300">Obese</span>
                   <span className="text-white/80 font-mono">≥ 30</span>
                 </div>
+              </div>
+              <div className="mt-6 text-white/70 text-sm"></div>
+            </GlassCard>
+            <GlassCard className="p-6">
+              <p className="text-white text-lg leading-relaxed text-center">
+                Remember, BMI is a general guideline and may not apply to all
+                individuals. Always consult with a healthcare professional for
+                personalized advice.
+              </p>
+              <div className="mt-4 text-white/70 text-sm">
+                <p className="text-center">
+                  For more information, visit the{" "}
+                  <a
+                    href="https://www.who.int/news-room/fact-sheets/detail/bmi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-400"
+                  >
+                    WHO BMI Fact Sheet
+                  </a>
+                  .
+                </p>
               </div>
             </GlassCard>
           </div>
